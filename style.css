@@ -1,4 +1,4 @@
-body {
+/*body {
     background-color: #59d8ba;
     color: #332d56;
     font-family: 'Lora', serif;
@@ -6,17 +6,7 @@ body {
     margin: 0;
 }
 
-#navigator{
-    background-color: #274e7d;
-    padding: 0%;
-    margin: 0%;
-    display: flex;
-    justify-content: center;
-    gap: 10px  ;
-    width: 100%;               
-    height: 60px;  
-    align-items: center; 
-}
+
 
 #homeIntro h1 {
     text-align: center;
@@ -27,25 +17,20 @@ body {
     text-align: center;
 }
 
-.slides {
-    margin-left: 10%;
-    margin-right: 10%;
-    text-align: left;
-}
+
 
 #myphoto {
-    text-align: center;
+    display: flex;
+    al
 }
 
-.section {
-    text-align: center;
-}
+
 
 .school {
     text-decoration: underline;
 }
 
-a:link, a:visited {
+/*a:link, a:visited {
   background-color: #00b7ba;
   color: white;
   padding: 14px 25px;
@@ -56,4 +41,78 @@ a:link, a:visited {
 
 a:hover, a:active {
   background-color: #59d8ba;
+}*/
+
+body {
+        background-color: black;
+        color: white;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+@media screen and (max-width: 992px){
+    
+    body {
+        background-color: black;
+        color: white;
+
+    }
+}
+
+#name {
+    text-align: center;
+}
+
+#aSnD {
+    text-align: center;
+}
+
+#myphoto {
+    border-radius: 50%;
+    width: 200px;
+    height: 240px;
+}
+
+#about {
+    margin-left: 25%;
+}
+
+.box-1{
+    margin: 1%;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+
+
+.box-2{
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+
+.container {
+    text-align: left;  /* Aligns button to left */
+    padding: 50px;
+}
+
+.action-button {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 2px solid white;
+    transition: all 0.3s ease;
+    text-align: left;
+}
+        
+.action-button:hover {
+    background-color: transparent;
+    color: white;
 }
